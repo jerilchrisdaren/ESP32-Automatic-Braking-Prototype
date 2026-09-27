@@ -186,3 +186,19 @@ The project was developed using the **Arduino IDE** for ESP32 programming.
 - State-based control
 - Timed buzzer control using `millis()`
 - Embedded C/C++ programming
+
+## 🚀 Future Improvements
+
+Possible future improvements include:
+
+- Vehicle-speed-based braking logic
+- Wheel-speed sensors
+- Brake pressure monitoring
+- Redundant sensor validation
+- CAN bus communication
+- Fault detection and diagnostics
+- Sensor failure detection
+- More advanced automotive safety logic
+- Integration with ABS/ESC concepts
+- Real-time data logging
+- Automotive-grade hardware implementation
