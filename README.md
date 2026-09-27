@@ -63,6 +63,6 @@ The main objective of this project is to understand how an embedded controller c
 | I2C LCD | I2C |
 
 ## 📟 LCD Address
-
-```text
+CD Address
 0x27
+
