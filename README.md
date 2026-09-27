@@ -198,3 +198,8 @@ Possible future improvements include:
 - Integration with ABS/ESC concepts
 - Real-time data logging
 - Automotive-grade hardware implementation
+## ⚠️ Disclaimer
+
+This project is an **educational prototype** created for learning and experimentation in embedded systems and automotive safety concepts.
+
+It is **not intended for use in a real vehicle braking system**. Real automotive braking systems require automotive-grade hardware, redundancy, functional-safety engineering, extensive testing, validation, and compliance with applicable automotive standards.
