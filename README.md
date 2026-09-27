@@ -65,3 +65,36 @@ The main objective of this project is to understand how an embedded controller c
 
 ```text
 0x27
+## 🔬 Wokwi Simulation
+
+The project was designed and tested using the Wokwi online simulator.
+
+### Circuit Diagram
+
+![ESP32 Automatic Braking Prototype](automatic-braking-wokwi.png)
+
+### Live Simulation
+
+[Open the ESP32 Automatic Braking Prototype on Wokwi](YOUR_WOKWI_URL_HERE)
+
+## 🚀 Future Improvements
+
+Possible future improvements include:
+
+- Vehicle-speed-based braking logic
+- Wheel-speed sensors
+- Brake pressure monitoring
+- Redundant sensor validation
+- CAN bus communication
+- Fault detection and diagnostics
+- Sensor failure detection
+- More advanced automotive safety logic
+- Integration with ABS/ESC concepts
+- Real-time data logging
+- Automotive-grade hardware implementation
+
+## ⚠️ Disclaimer
+
+This project is an **educational prototype** created for learning and experimentation in embedded systems and automotive safety concepts.
+
+It is **not intended for use in a real vehicle braking system**. Real automotive braking systems require automotive-grade hardware, redundancy, functional-safety engineering, extensive testing, validation, and compliance with applicable automotive standards.
