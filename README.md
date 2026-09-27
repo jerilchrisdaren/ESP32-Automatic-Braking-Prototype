@@ -2,6 +2,7 @@
 ESP32-based front and rear obstacle detection with automatic braking control prototype.
 
 
+
 # ESP32 Automatic Braking Prototype
 
 ESP32-based front and rear obstacle detection with automatic braking control prototype.
@@ -76,26 +77,3 @@ The project was designed and tested using the Wokwi online simulator.
 ### Live Simulation
 
 [Open the ESP32 Automatic Braking Prototype on Wokwi](YOUR_WOKWI_URL_HERE)
-
-## 🚀 Future Improvements
-
-Possible future improvements include:
-
-- Vehicle-speed-based braking logic
-- Wheel-speed sensors
-- Brake pressure monitoring
-- Redundant sensor validation
-- CAN bus communication
-- Fault detection and diagnostics
-- Sensor failure detection
-- More advanced automotive safety logic
-- Integration with ABS/ESC concepts
-- Real-time data logging
-- Automotive-grade hardware implementation
-
-## ⚠️ Disclaimer
-
-This project is an **educational prototype** created for learning and experimentation in embedded systems and automotive safety concepts.
-
-It is **not intended for use in a real vehicle braking system**. Real automotive braking systems require automotive-grade hardware, redundancy, functional-safety engineering, extensive testing, validation, and compliance with applicable automotive standards.
-<img width="2142" height="1232" alt="image" src="https://github.com/user-attachments/assets/15762a4b-a976-4cdd-8814-4e64d937eb3e" />
