@@ -61,3 +61,19 @@ The main objective of this project is to understand how an embedded controller c
 ## 📟 LCD Address
 
 `0x27`
+## ⚙️ Working Principle
+
+The system uses two HC-SR04 ultrasonic sensors to continuously monitor obstacles in front of and behind the vehicle.
+
+The ESP32 measures the distance detected by both sensors and compares the readings with predefined safety thresholds.
+
+Based on the detected distance, the system operates in different safety states:
+
+1. **System Safe** – No nearby obstacle is detected.
+2. **Obstacle Warning** – An obstacle is detected within 50 cm.
+3. **Brake Ready / Critical** – An obstacle is detected within 20 cm.
+4. **Automatic Braking** – An obstacle is detected within 10 cm.
+
+If either the front or rear sensor detects an obstacle within the critical range, the ESP32 activates the braking actuator and provides visual, audio, and LCD warnings.
+
+The servo motor represents the braking actuator in this educational prototype.
