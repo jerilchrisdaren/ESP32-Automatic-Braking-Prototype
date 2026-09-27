@@ -77,3 +77,15 @@ Based on the detected distance, the system operates in different safety states:
 If either the front or rear sensor detects an obstacle within the critical range, the ESP32 activates the braking actuator and provides visual, audio, and LCD warnings.
 
 The servo motor represents the braking actuator in this educational prototype.
+## 🛡️ Safety Logic
+
+The system uses distance thresholds to determine the appropriate safety response.
+
+| Distance Condition | System Response |
+|---|---|
+| Distance ≥ 50 cm | System Safe |
+| 20 cm ≤ Distance < 50 cm | Obstacle Warning |
+| 10 cm ≤ Distance < 20 cm | Brake Ready / Critical Warning |
+| Distance < 10 cm | Automatic Braking |
+
+The safety condition is triggered when **either the front or rear ultrasonic sensor** detects an obstacle within the corresponding distance range.
