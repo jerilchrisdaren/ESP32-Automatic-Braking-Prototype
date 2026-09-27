@@ -79,3 +79,14 @@ LCD address:
 
 ```text
 0x27
+## 🔬 Wokwi Simulation
+
+The project was designed and tested using the Wokwi online simulator.
+
+### Circuit Diagram
+
+![ESP32 Automatic Braking Prototype](automatic-braking-wokwi.png)
+
+### Live Simulation
+
+[Open the ESP32 Automatic Braking Prototype on Wokwi](YOUR_WOKWI_URL_HERE)
