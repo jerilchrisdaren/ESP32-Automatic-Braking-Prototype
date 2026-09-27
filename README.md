@@ -89,3 +89,19 @@ The system uses distance thresholds to determine the appropriate safety response
 | Distance < 10 cm | Automatic Braking |
 
 The safety condition is triggered when **either the front or rear ultrasonic sensor** detects an obstacle within the corresponding distance range.
+## 🚨 System States
+
+### 🟢 System Safe
+
+When both detected distances are 50 cm or more:
+
+- Green LED ON
+- Yellow LED OFF
+- Red LED OFF
+- Buzzer OFF
+- Brake servo returns to the normal position
+- LCD displays:
+
+```text
+SYSTEM SAFE
+Distance:OK
