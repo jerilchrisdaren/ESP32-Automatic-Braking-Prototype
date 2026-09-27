@@ -169,3 +169,17 @@ The project was developed using the **Arduino IDE** for ESP32 programming.
 ```cpp
 #include <LiquidCrystal_I2C.h>
 #include <Servo.h>
+## 🧠 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- ESP32 programming
+- Ultrasonic sensor interfacing
+- Servo motor control
+- I2C LCD interfacing
+- GPIO control
+- Safety-state logic
+- Sensor-based decision making
+- Automatic actuator control
+- Automotive embedded-system concepts
+- Prototyping and testing using Wokwi
