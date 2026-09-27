@@ -105,3 +105,45 @@ When both detected distances are 50 cm or more:
 ```text
 SYSTEM SAFE
 Distance:OK
+### 🟡 Obstacle Warning
+
+When either sensor detects an obstacle below 50 cm but at least 20 cm away:
+
+- Yellow LED ON
+- Red LED OFF
+- Green LED OFF
+- Warning buzzer activates periodically
+- Brake servo moves to the warning position
+- LCD displays:
+
+```text
+OBSTACLE AHEAD
+SLOW DOWN
+### 🟡 Brake Ready / Critical
+
+When either sensor detects an obstacle below 20 cm but at least 10 cm away:
+
+- Yellow LED ON
+- Red LED OFF
+- Green LED OFF
+- Warning buzzer activates
+- Brake servo moves further toward the braking position
+- LCD displays:
+
+```text
+BRAKE READY
+CRITICAL
+### 🔴 Automatic Braking
+
+When either sensor detects an obstacle below 10 cm:
+
+- Red LED ON
+- Yellow LED OFF
+- Green LED OFF
+- Continuous buzzer
+- Brake servo moves to the braking position
+- LCD displays:
+
+```text
+AUTO BRAKING
+STOP VEHICLE
