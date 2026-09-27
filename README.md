@@ -165,53 +165,12 @@ The buzzer uses different warning patterns depending on the detected safety cond
 The project was developed using the **Arduino IDE** for ESP32 programming.
 
 ### Libraries Used
+## 💻 Software and Libraries
+
+The project was developed using the **Arduino IDE** for ESP32 programming.
+
+### Libraries Used
 
 ```cpp
 #include <LiquidCrystal_I2C.h>
-#include <Servo.h>
-## 🧠 Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-- ESP32 programming
-- Ultrasonic sensor interfacing
-- Servo motor control
-- I2C LCD interfacing
-- GPIO control
-- Safety-state logic
-- Sensor-based decision making
-- Automatic actuator control
-- Automotive embedded-system concepts
-- Prototyping and testing using Wokwi
-## 🚀 Future Improvements
-
-Possible future improvements include:
-
-- Vehicle-speed-based braking logic
-- Wheel-speed sensors
-- Brake pressure monitoring
-- Redundant sensor validation
-- CAN bus communication
-- Fault detection and diagnostics
-- Sensor failure detection
-- More advanced automotive safety logic
-- Integration with ABS/ESC concepts
-- Real-time data logging
-- Automotive-grade hardware implementation
-## ⚠️ Disclaimer
-
-This project is an **educational prototype** created for learning and experimentation in embedded systems and automotive safety concepts.
-
-It is **not intended for use in a real vehicle braking system**. Real automotive braking systems require automotive-grade hardware, redundancy, functional-safety engineering, extensive testing, validation, and compliance with applicable automotive standards.
-## 🔬 Wokwi Simulation
-
-The project was designed and tested using the Wokwi online simulator.
-
-### Circuit Diagram
-
-![ESP32 Automatic Braking Prototype](automatic-braking-wokwi.png)
-
-### Live Simulation
-
-[Open the ESP32 Automatic Braking Prototype on Wokwi](YOUR_WOKWI_URL_HERE)
-https://wokwi.com/projects/476339188798443521
+#include <Servo.
