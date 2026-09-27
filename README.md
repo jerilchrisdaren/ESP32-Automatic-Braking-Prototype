@@ -119,6 +119,8 @@ When either sensor detects an obstacle below 50 cm but at least 20 cm away:
 ```text
 OBSTACLE AHEAD
 SLOW DOWN
+```
+
 ### 🟡 Brake Ready / Critical
 
 When either sensor detects an obstacle below 20 cm but at least 10 cm away:
@@ -133,6 +135,8 @@ When either sensor detects an obstacle below 20 cm but at least 10 cm away:
 ```text
 BRAKE READY
 CRITICAL
+```
+
 ### 🔴 Automatic Braking
 
 When either sensor detects an obstacle below 10 cm:
@@ -147,3 +151,4 @@ When either sensor detects an obstacle below 10 cm:
 ```text
 AUTO BRAKING
 STOP VEHICLE
+```
