@@ -61,7 +61,7 @@ The main objective of this project is to understand how an embedded controller c
 | Red LED | GPIO 33 |
 | I2C LCD | I2C |
 
-### LCD Address
+## 📟 LCD Address
 
 ```text
 0x27
