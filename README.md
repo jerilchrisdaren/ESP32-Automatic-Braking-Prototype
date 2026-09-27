@@ -152,3 +152,11 @@ When either sensor detects an obstacle below 10 cm:
 AUTO BRAKING
 STOP VEHICLE
 ```
+The system uses LEDs and a buzzer to communicate different safety conditions to the user.
+
+- 🟢 Green LED → System Safe
+- 🟡 Yellow LED → Obstacle Warning / Brake Ready
+- 🔴 Red LED → Automatic Braking
+- 🔊 Buzzer → Audio warning based on obstacle distance
+
+The buzzer uses different warning patterns depending on the detected safety condition.
