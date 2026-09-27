@@ -1,73 +1,59 @@
 # ESP32-Automatic-Braking-Prototype
 ESP32-based front and rear obstacle detection with automatic braking control prototype.
 
+
 # ESP32 Automatic Braking Prototype
 
-An ESP32-based automotive safety prototype that uses front and rear ultrasonic sensors to detect nearby obstacles and automatically control a servo-based braking actuator.
+ESP32-based front and rear obstacle detection with automatic braking control prototype.
 
 ## 🚗 Project Overview
 
-This project demonstrates the basic concept of an **Automatic Emergency Braking (AEB) prototype** using an ESP32.
+This project demonstrates an **ESP32-based automatic braking prototype** designed to detect obstacles from both the front and rear of a vehicle and automatically activate a braking actuator when a critical obstacle is detected.
 
-The system continuously monitors the distance from obstacles using two ultrasonic sensors:
+The system provides:
 
-- Front ultrasonic sensor
-- Rear ultrasonic sensor
+- Front obstacle detection
+- Rear obstacle detection
+- Automatic braking
+- Visual warning using LEDs
+- Audio warning using a buzzer
+- LCD status feedback
+- Servo-based brake actuator control
 
-Based on the detected distance, the system provides visual and audio warnings and changes the position of a servo motor representing the braking actuator.
-
-> **Note:** This is an educational prototype and is not designed to control the braking system of a real vehicle.
-
----
+> **Note:** This is an educational embedded-systems prototype and is not intended for use in a real vehicle.
 
 ## 🎯 Objective
 
-The main objectives of this project are:
+The main objective of this project is to understand how an embedded controller can:
 
-- Detect obstacles in front and behind the vehicle.
-- Monitor obstacle distance continuously.
-- Provide different warning levels.
-- Automatically activate the prototype braking actuator when an obstacle is critically close.
-- Demonstrate automotive embedded-system control logic.
+1. Monitor multiple ultrasonic sensors.
+2. Determine obstacle distance.
+3. Classify different safety conditions.
+4. Automatically control a braking actuator.
+5. Provide visual and audio warnings.
+6. Display system status through an I2C LCD.
 
----
+## 🧰 Components Used
 
-## 🧩 Components Used
-
-| Component | Quantity |
-|---|---:|
-| ESP32 Development Board | 1 |
-| HC-SR04 Ultrasonic Sensor | 2 |
-| Servo Motor | 1 |
-| 16×2 I2C LCD | 1 |
-| Buzzer | 1 |
-| Green LED | 1 |
-| Yellow LED | 1 |
-| Red LED | 1 |
-| Jumper Wires | As required |
-
----
+- ESP32 Development Board
+- 2 × HC-SR04 Ultrasonic Sensors
+- Servo Motor
+- 16×2 I2C LCD
+- Red LED
+- Yellow LED
+- Green LED
+- Buzzer
+- Resistors
+- Jumper Wires
 
 ## 🔌 Pin Configuration
 
-### Front Ultrasonic Sensor
-
-| Function | ESP32 Pin |
-|---|---:|
-| TRIG | GPIO 5 |
-| ECHO | GPIO 18 |
-
-### Rear Ultrasonic Sensor
-
-| Function | ESP32 Pin |
-|---|---:|
-| TRIG | GPIO 19 |
-| ECHO | GPIO 23 |
-
-### Other Components
-
 | Component | ESP32 Pin |
-|---|---:|
+|---|---|
+| Front HC-SR04 TRIG | GPIO 5 |
+| Front HC-SR04 ECHO | GPIO 18 |
+| Rear HC-SR04 TRIG | GPIO 19 |
+| Rear HC-SR04 ECHO | GPIO 23 |
 | Brake Servo | GPIO 25 |
 | Buzzer | GPIO 14 |
 | Green LED | GPIO 27 |
@@ -75,18 +61,7 @@ The main objectives of this project are:
 | Red LED | GPIO 33 |
 | I2C LCD | I2C |
 
-LCD address:
+### LCD Address
 
 ```text
 0x27
-## 🔬 Wokwi Simulation
-
-The project was designed and tested using the Wokwi online simulator.
-
-### Circuit Diagram
-
-![ESP32 Automatic Braking Prototype](automatic-braking-wokwi.png)
-
-### Live Simulation
-
-[Open the ESP32 Automatic Braking Prototype on Wokwi](YOUR_WOKWI_URL_HERE)
