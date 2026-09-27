@@ -214,3 +214,4 @@ The project was designed and tested using the Wokwi online simulator.
 ### Live Simulation
 
 [Open the ESP32 Automatic Braking Prototype on Wokwi](YOUR_WOKWI_URL_HERE)
+https://wokwi.com/projects/476339188798443521
