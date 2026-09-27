@@ -174,3 +174,15 @@ The project was developed using the **Arduino IDE** for ESP32 programming.
 ```cpp
 #include <LiquidCrystal_I2C.h>
 #include <Servo.
+
+### Programming Concepts
+
+- ESP32 GPIO control
+- Ultrasonic distance measurement
+- `pulseIn()`
+- Servo motor control
+- I2C LCD communication
+- Conditional logic
+- State-based control
+- Timed buzzer control using `millis()`
+- Embedded C/C++ programming
