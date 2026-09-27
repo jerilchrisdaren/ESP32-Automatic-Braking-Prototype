@@ -160,3 +160,12 @@ The system uses LEDs and a buzzer to communicate different safety conditions to 
 - 🔊 Buzzer → Audio warning based on obstacle distance
 
 The buzzer uses different warning patterns depending on the detected safety condition.
+## 💻 Software and Libraries
+
+The project was developed using the **Arduino IDE** for ESP32 programming.
+
+### Libraries Used
+
+```cpp
+#include <LiquidCrystal_I2C.h>
+#include <Servo.h>
