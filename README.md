@@ -203,3 +203,14 @@ Possible future improvements include:
 This project is an **educational prototype** created for learning and experimentation in embedded systems and automotive safety concepts.
 
 It is **not intended for use in a real vehicle braking system**. Real automotive braking systems require automotive-grade hardware, redundancy, functional-safety engineering, extensive testing, validation, and compliance with applicable automotive standards.
+## 🔬 Wokwi Simulation
+
+The project was designed and tested using the Wokwi online simulator.
+
+### Circuit Diagram
+
+![ESP32 Automatic Braking Prototype](automatic-braking-wokwi.png)
+
+### Live Simulation
+
+[Open the ESP32 Automatic Braking Prototype on Wokwi](YOUR_WOKWI_URL_HERE)
