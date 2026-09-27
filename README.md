@@ -1,8 +1,3 @@
-# ESP32-Automatic-Braking-Prototype
-ESP32-based front and rear obstacle detection with automatic braking control prototype.
-
-
-
 # ESP32 Automatic Braking Prototype
 
 ESP32-based front and rear obstacle detection with automatic braking control prototype.
@@ -60,9 +55,9 @@ The main objective of this project is to understand how an embedded controller c
 | Green LED | GPIO 27 |
 | Yellow LED | GPIO 26 |
 | Red LED | GPIO 33 |
-| I2C LCD | I2C |
+| I2C LCD SDA | GPIO 21 |
+| I2C LCD SCL | GPIO 22 |
 
 ## 📟 LCD Address
-CD Address
-0x27
 
+`0x27`
